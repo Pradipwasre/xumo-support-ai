@@ -1,0 +1,177 @@
+{
+  "network_issues": {
+    "description": "Troubleshooting steps for network connectivity problems",
+    "common_steps": [
+      "Verify MAC address registration with ISP",
+      "Check DHCP settings and assign static IP",
+      "Run network diagnostics using ping/traceroute",
+      "Power cycle modem and router in sequence",
+      "Check cable connections and cable integrity",
+      "Verify port forwarding and firewall settings",
+      "Test with ethernet vs WiFi connection",
+      "Check for IP address conflicts on network",
+      "Verify DNS settings and try alternative DNS servers",
+      "Run speed test and check for packet loss"
+    ],
+    "escalation_triggers": [
+      "intermittent connectivity lasting over 24 hours",
+      "consistent packet loss above 5%",
+      "ISP-level routing issues",
+      "hardware failure confirmed",
+      "multiple device failures on same network"
+    ],
+    "priority_keywords": [
+      "no internet", "connection drops", "slow speed", "timeout", "ping fails"
+    ]
+  },
+  "hardware_issues": {
+    "description": "Hardware-related troubleshooting procedures",
+    "common_steps": [
+      "Perform complete device restart",
+      "Check all physical connections and cables",
+      "Verify power supply voltage and stability",
+      "Test with known-good replacement cables",
+      "Factory reset device to default settings",
+      "Check for overheating and ventilation",
+      "Verify firmware version and update if needed",
+      "Test device with minimal configuration",
+      "Check LED status indicators and error codes",
+      "Isolate device by testing standalone"
+    ],
+    "escalation_triggers": [
+      "device completely unresponsive",
+      "multiple hardware component failures",
+      "recurring hardware errors after replacement",
+      "warranty claim required",
+      "safety concerns with device operation"
+    ],
+    "priority_keywords": [
+      "not turning on", "overheating", "burning smell", "loud noise", "cracked"
+    ]
+  },
+  "software_issues": {
+    "description": "Software and application troubleshooting",
+    "common_steps": [
+      "Clear application cache and temporary files",
+      "Update software to latest version",
+      "Check system requirements and compatibility",
+      "Reinstall application with clean installation",
+      "Reset application to default settings",
+      "Check for conflicting software or drivers",
+      "Run system file checker and repair tools",
+      "Boot in safe mode for diagnosis",
+      "Check system logs for error messages",
+      "Verify license activation and permissions"
+    ],
+    "escalation_triggers": [
+      "critical system crashes",
+      "data corruption or loss",
+      "software licensing issues",
+      "security breach suspected",
+      "performance degradation across multiple applications"
+    ],
+    "priority_keywords": [
+      "crashes", "freezes", "error message", "won't start", "blue screen"
+    ]
+  },
+  "account_issues": {
+    "description": "Account access and authentication problems",
+    "common_steps": [
+      "Verify account credentials and spelling",
+      "Reset password using official recovery process",
+      "Check account status and suspension notices",
+      "Clear browser cookies and cached credentials",
+      "Try accessing from different device or browser",
+      "Verify two-factor authentication settings",
+      "Check for account lockout due to failed attempts",
+      "Confirm account email address is accessible",
+      "Review recent account activity for unauthorized access",
+      "Update security questions and backup methods"
+    ],
+    "escalation_triggers": [
+      "suspected unauthorized access",
+      "account permanently locked",
+      "payment or billing disputes",
+      "identity verification required",
+      "data privacy concerns"
+    ],
+    "priority_keywords": [
+      "can't login", "password reset", "locked out", "unauthorized access", "suspended"
+    ]
+  },
+  "billing_problems": {
+    "description": "Billing and payment related issues",
+    "common_steps": [
+      "Review recent billing statements and charges",
+      "Verify payment method and expiration dates",
+      "Check for failed payment notifications",
+      "Confirm billing address matches payment method",
+      "Review service plan and feature changes",
+      "Check for promotional pricing expiration",
+      "Verify automatic payment settings",
+      "Review usage charges and overage fees",
+      "Confirm tax calculations and regional charges",
+      "Check refund and credit processing status"
+    ],
+    "escalation_triggers": [
+      "disputed charges over $100",
+      "billing system errors",
+      "refund requests requiring manager approval",
+      "legal or regulatory compliance issues",
+      "service termination notices"
+    ],
+    "priority_keywords": [
+      "overcharged", "wrong amount", "payment failed", "refund", "cancel subscription"
+    ]
+  },
+  "general_inquiry": {
+    "description": "General questions and information requests",
+    "common_steps": [
+      "Identify specific information or service needed",
+      "Direct to appropriate self-service resources",
+      "Provide current product documentation links",
+      "Explain available support channels and hours",
+      "Confirm account details and service level",
+      "Schedule follow-up appointments if needed",
+      "Document inquiry for future reference",
+      "Provide estimated timeframes for requests",
+      "Confirm contact preferences for updates",
+      "Offer additional related resources or training"
+    ],
+    "escalation_triggers": [
+      "complex product configuration requests",
+      "enterprise-level feature inquiries",
+      "regulatory compliance questions",
+      "custom integration requirements",
+      "partnership or business development inquiries"
+    ],
+    "priority_keywords": [
+      "how to", "information about", "when will", "what is", "can you explain"
+    ]
+  },
+  "streaming_issues": {
+    "description": "Video streaming and media playback problems",
+    "common_steps": [
+      "Check internet bandwidth and speed requirements",
+      "Clear streaming app cache and data",
+      "Update streaming application to latest version",
+      "Restart streaming device and router",
+      "Check for content licensing restrictions in region",
+      "Adjust video quality settings to match bandwidth",
+      "Test streaming on different device or platform",
+      "Verify HDMI or display connection settings",
+      "Check for background downloads affecting bandwidth",
+      "Switch to wired connection from WiFi if possible"
+    ],
+    "escalation_triggers": [
+      "content not available due to licensing",
+      "widespread service outages",
+      "premium feature access issues",
+      "account sharing violations",
+      "content quality complaints requiring technical review"
+    ],
+    "priority_keywords": [
+      "buffering", "poor quality", "no sound", "black screen", "content unavailable"
+    ]
+  }
+}

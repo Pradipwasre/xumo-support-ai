@@ -1,0 +1,13 @@
+timestamp,raw_text,issue_description,customer_name,contact_number,email,device_details,troubleshooting_completed,escalation_status,ticket_id
+2025-06-02T04:23:35.578286,"Issue Description: Customer facing network issue with stream box.
+Customer Name: Mike Swift
+Contact Number: 9896011263
+Email: mike.swift@email.com
+Device Details:
+MAC Address: FD:34:DF:3D:25:00
+Serial Number: ES145TGTIG090909
+
+Troubleshooting Steps Completed:
+✅ Power cycle performed on stream box & router
+✅ Factory reset performed
+🚀 Issue still persists, escalating to Tier 2",Customer facing network issue with stream box.,Mike Swift,9896011263,mike.swift@email.com,"{'mac_address': 'FD:34:DF:3D:25:00', 'serial_number': 'ES145TGTIG090909'}","['Power cycle performed on stream box & router', 'Factory reset performed']","🚀 Issue still persists, escalating to Tier 2",TKT_20250602_042335

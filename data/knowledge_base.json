@@ -1,0 +1,44 @@
+{
+  "network_issues": {
+    "common_steps": [
+      "Verify MAC address registration with ISP",
+      "Check DHCP settings and assign static IP",
+      "Run network diagnostics (ping/traceroute)",
+      "Power cycle modem and router",
+      "Check cable connections"
+    ],
+    "escalation_triggers": [
+      "intermittent connectivity",
+      "packet loss",
+      "ISP issues"
+    ]
+  },
+  "hardware_issues": {
+    "common_steps": [
+      "Perform device restart",
+      "Check physical connections",
+      "Verify power supply",
+      "Test with different cables",
+      "Factory reset if necessary"
+    ],
+    "escalation_triggers": [
+      "hardware failure",
+      "device not responding",
+      "multiple device issues"
+    ]
+  },
+  "software_issues": {
+    "common_steps": [
+      "Clear cache and cookies",
+      "Update software/firmware",
+      "Check system requirements",
+      "Reinstall application",
+      "Reset to default settings"
+    ],
+    "escalation_triggers": [
+      "software bug",
+      "compatibility issues",
+      "system crashes"
+    ]
+  }
+}

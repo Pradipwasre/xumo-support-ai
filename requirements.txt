@@ -1,0 +1,48 @@
+# AI Customer Support Assistant - Dependencies
+# Core Streamlit framework
+streamlit
+
+# OpenAI GPT integration
+openai>=0.28.0
+
+# Data processing and analysis
+pandas>=1.5.0
+numpy>=1.24.0
+
+# JSON handling (built-in, but listing for clarity)
+# json (built-in)
+
+# Regular expressions for PII detection (built-in)
+# re (built-in)
+
+# Date and time handling (built-in)
+# datetime (built-in)
+
+# File and OS operations (built-in)
+# os (built-in)
+# io (built-in)
+
+# Logging (built-in)
+# logging (built-in)
+
+# Type hints (built-in in Python 3.5+)
+# typing (built-in)
+
+# Additional utilities
+requests>=2.31.0  # For HTTP requests if needed
+python-dotenv>=1.0.0  # For environment variable management
+
+# Optional: For enhanced data visualization
+plotly>=5.15.0  # If you want to add more advanced charts
+altair>=5.0.0   # Alternative charting library for Streamlit
+
+# Optional: For CSV handling improvements
+chardet>=5.1.0  # Character encoding detection
+
+# Optional: For advanced text processing
+nltk>=3.8.0     # Natural language processing (if needed for text analysis)
+
+# Development dependencies (optional)
+pytest>=7.4.0   # For testing
+black>=23.7.0   # Code formatting
+flake8>=6.0.0   # Code linting
